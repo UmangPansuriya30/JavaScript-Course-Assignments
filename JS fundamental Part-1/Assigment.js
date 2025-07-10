@@ -106,7 +106,6 @@ switch(language)
 }
 
 //Assignment -11
-
 population = 13;
 (avg_country_pop < population)
     ? console.log(`${country}'s Population is above average`)

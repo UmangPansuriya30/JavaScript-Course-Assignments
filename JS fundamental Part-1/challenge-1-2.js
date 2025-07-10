@@ -1,13 +1,12 @@
 // TestCase-1
 // mark_mass=78
 // mark_height = 1.69;
-
 // john_mass = 92;
 // john_height = 1.95;
+
 // TestCase-2
 mark_mass = 95
 mark_height = 1.88;
-
 john_mass = 85;
 john_height = 1.76;
 

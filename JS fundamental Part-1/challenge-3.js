@@ -5,14 +5,16 @@
 // koalas_s1 = 88
 // koalas_s2 = 91
 // koalas_s3 = 110
+
 // TestCase-2
 // dolphins_s1 = 97
 // dolphins_s2 = 112
 // dolphins_s3 = 101
 // koalas_s1 = 109
 // koalas_s2 = 95
-// koalas_s3 = 123
-// // TestCase-3
+// koalas_s3 = 12
+
+// TestCase-3
 dolphins_s1 = 97
 dolphins_s2 = 112
 dolphins_s3 = 101
