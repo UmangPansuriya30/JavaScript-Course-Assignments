@@ -4,50 +4,36 @@ function describeCountry(country, population, capitalCity) {
     return `${country} has ${population} million people and its capital city is ${capitalCity}`;
 }
 
-const country1 = describeCountry("Finland", 6, "Helsinki");
-const country2 = describeCountry("India", 1400, "New Delhi");
-const country3 = describeCountry("Japan", 125, "Tokyo");
-
 // Log the results to the console
-console.log(country1);
-console.log(country2);
-console.log(country3);
+console.log(describeCountry("Finland", 6, "Helsinki"));
+console.log(describeCountry("India", 1400, "New Delhi"));
+console.log(describeCountry("Japan", 125, "Tokyo"));
 
 //Assignment-2
 function percentageOfWorld1(population) {
     return population / 7900 * 100;
 }
 
-let percent1 = percentageOfWorld1(6).toFixed(2);
-let percent2 = percentageOfWorld1(1400).toFixed(2);
-let percent3 = percentageOfWorld1(125).toFixed(2);
-
-console.log(percent1);
-console.log(percent2);
-console.log(percent3);
+console.log(percentageOfWorld1(6).toFixed(2));
+console.log(percentageOfWorld1(1400).toFixed(2));
+console.log(percentageOfWorld1(125).toFixed(2));
 
 const percentageOfWorld2 = function (population) {
     return population / 7900 * 100;
 }
 
-percent1 = percentageOfWorld2(6).toFixed(2);
-percent2 = percentageOfWorld2(1400).toFixed(2);
-percent3 = percentageOfWorld2(125).toFixed(2);
 
-console.log(percent1);
-console.log(percent2);
-console.log(percent3);
+console.log(percentageOfWorld2(6).toFixed(2));
+console.log(percentageOfWorld2(1400).toFixed(2));
+console.log(percentageOfWorld2(125).toFixed(2));
 
 //Assignment-3
 const percentageOfWorld3 = (population) => population / 7900 * 100;
 
-percent1 = percentageOfWorld3(6).toFixed(2);
-percent2 = percentageOfWorld3(1400).toFixed(2);
-percent3 = percentageOfWorld3(125).toFixed(2);
 
-console.log(percent1);
-console.log(percent2);
-console.log(percent3);
+console.log(percentageOfWorld3(6).toFixed(2));
+console.log(percentageOfWorld3(1400).toFixed(2));
+console.log(percentageOfWorld3(125).toFixed(2));
 
 //Assignment-4
 function describePopulation(country, population) {
